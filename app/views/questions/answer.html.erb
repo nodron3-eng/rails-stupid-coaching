@@ -1,0 +1,21 @@
+<h1>Stupid Coaching</h1>
+
+<figure class="card-message">
+  <blockquote class="blockquote">
+    <p><%= params["user-question"] %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Your coach
+  </figcaption>
+</figure>
+
+<figure class="card-message">
+  <blockquote class="blockquote">
+    <p><%= @coach_answer %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Your coach
+  </figcaption>
+</figure>
+
+<%= link_to "Ask a new question", ask_path %>
